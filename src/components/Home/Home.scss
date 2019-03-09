@@ -5,6 +5,33 @@
   width: 100%;
   overflow-x: hidden;
 }
-.home-section-one img{
-  height: 100vh;
+.home-section-one {
+  position: relative;
+}
+.home-section-one-img {
+  width: 100%;
+}
+.home-section-one-footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 2px;
+  height: 70px;
+  width: 100%;
+  z-index: 1;
+}
+.home-section-one-down-arrow {
+  width: 19.24px;
+}
+.home-section-one-msg {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  bottom: 10em;
+  z-index: 1;
+}
+.home-section-one-msg p {
+  color: $grey;
+  font-size: 96px;
 }
