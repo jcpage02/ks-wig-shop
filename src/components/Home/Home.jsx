@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="home">
       <Header />
-      <div className="home-section-one">
+      <section id="home-section-one">
         <img
           className="home-section-one-img"
           src={imageOne}
@@ -21,10 +21,19 @@ export default function Home() {
             alt="down"
           />
         </div>
-        <div className='home-section-one-msg'>
-          <p>Beautiful. Warrior</p>
+        <div className="home-section-one-msg">
+          <p>Beautiful. Warrior.</p>
         </div>
-      </div>
+      </section>
+      <section id="home-section-two">
+        <div className="home-section-two-one">
+          <div  className='home-section-two-msg-header'>
+            <h2>Chemo is Tough.</h2>
+            <h2>But I Am Tougher.</h2>
+          </div>
+        </div>
+        <div className="home-section-two-two" />
+      </section>
     </div>
   );
 }
