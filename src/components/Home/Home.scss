@@ -31,7 +31,7 @@
   justify-content: center;
   width: 100%;
   bottom: 19%;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
   z-index: 1;
 }
 .home-section-one-msg p {
@@ -41,9 +41,9 @@
 
 #home-section-two {
   position: relative;
-  height: 120vh;
+  height: 130vh;
   width: 100vw;
-  background-color: rgba(210, 180, 140, 0.404);
+  background-color: rgba(241, 241, 241, 0.404);
 }
 .home-section-two-one {
   position: absolute;
@@ -52,17 +52,24 @@
   justify-content: center;
   top: 0;
   width: 100%;
-  height: 30%;
+  height: 25em;
   background-color: white;
 }
-.home-section-two-one h2 {
-  font-size: 2.4vw;
+#home-section-two h2 {
+  font-size: 1.6em;
   letter-spacing: 1px;
   font-weight: 400;
   color: $grey;
   margin: 0;
+  letter-spacing: 2px;
 }
-.home-section-two-msg-header {
+#home-section-two p {
+  width: 38em;
+  font-size: .8em;
+  color: $grey;
+  margin-top: 2em;
+}
+.home-section-two-one-msg-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,5 +78,42 @@
   width: 100vw;
 }
 .home-section-two-two {
-  
+  position: absolute;
+  top: 27em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40em;
+  background-color: white;
+}
+.home-section-two-two-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.home-section-two-two-text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: $grey;
+  width: 30em;
+  margin-left: 7em;
+  margin-bottom: 10em;
+}
+// .home-section-two-two-text h2{
+//   letter-spacing: 1px;
+//   font-size: 2em;
+//   font-weight: 500;
+//   margin-bottom: .1em;
+// }
+.home-image-two {
+  width: 24em;
+}
+.home-image-three {
+  position: relative;
+  bottom: 12.7em;
+  margin-right: 3em;
+  width: 25em;
 }
