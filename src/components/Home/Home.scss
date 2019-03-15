@@ -36,14 +36,14 @@
 }
 .home-section-one-msg p {
   color: $grey;
-  font-size: 7vw;
+  font-size: 96px;
 }
 
 #home-section-two {
   position: relative;
-  height: 130vh;
+  height: 84em;
   width: 100vw;
-  background-color: rgba(241, 241, 241, 0.404);
+  background-color: rgba(241, 241, 241, 0.781);
 }
 .home-section-two-one {
   position: absolute;
@@ -52,11 +52,11 @@
   justify-content: center;
   top: 0;
   width: 100%;
-  height: 25em;
+  height: 29em;
   background-color: white;
 }
 #home-section-two h2 {
-  font-size: 1.6em;
+  font-size: 2.2em;
   letter-spacing: 1px;
   font-weight: 400;
   color: $grey;
@@ -65,7 +65,7 @@
 }
 #home-section-two p {
   width: 38em;
-  font-size: .8em;
+  font-size: 14px;
   color: $grey;
   margin-top: 2em;
 }
@@ -79,12 +79,12 @@
 }
 .home-section-two-two {
   position: absolute;
-  top: 27em;
+  top: 29em;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 40em;
+  height: 55em;
   background-color: white;
 }
 .home-section-two-two-msg {
@@ -98,22 +98,99 @@
   justify-content: center;
   flex-wrap: wrap;
   color: $grey;
-  width: 30em;
-  margin-left: 7em;
+  width: 32em;
+  margin-left: 9.4em;
+  margin-right: -1.4em;
   margin-bottom: 10em;
 }
-// .home-section-two-two-text h2{
-//   letter-spacing: 1px;
-//   font-size: 2em;
-//   font-weight: 500;
-//   margin-bottom: .1em;
-// }
 .home-image-two {
-  width: 24em;
+  width: 30em;
 }
 .home-image-three {
   position: relative;
-  bottom: 12.7em;
-  margin-right: 3em;
-  width: 25em;
+  bottom: 13.3em;
+  margin-right: -1.1em;
+  width: 30em;
+}
+#home-section-three {
+  position: relative;
+  height: 100%;
+}
+#home-section-three h2 {
+  position: absolute;
+  bottom: 13em;
+  right: 7.5em;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: $grey;
+  margin: 0;
+  letter-spacing: 2px;
+}
+#home-section-three p {
+  position: absolute;
+  bottom: 25em;
+  right: 8em;
+  width: 37em;
+  font-size: 14px;
+  color: $grey;
+  margin-top: 2em;
+}
+#home-section-three h4 {
+  position: absolute;
+  bottom: 14em;
+  right: 19em;
+  padding-bottom: 0.5em;
+  font-size: 14px;
+  color: $grey;
+  letter-spacing: 1px;
+  border-bottom: 0.25em solid $grey;
+}
+#home-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: $grey;
+  height: 5em;
+  padding: .8em 3em;
+}
+.home-footer-left p {
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0;
+  width: 100%;
+}
+.home-footer-left p a {
+  color: $grey;
+}
+.home-footer-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#home-footer-phone {
+  font-size: 9px;
+  font-weight: 500;
+}
+.home-footer-center-top p{
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: .8em;
+  width: 100%;
+  text-align: center;
+}
+.home-footer-center-bottom p{
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+.home-footer-right p {
+  font-size: 11px;
+  font-weight: 700;
+  margin: 0;
+  width: 100%;
 }
